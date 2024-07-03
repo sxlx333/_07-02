@@ -1,5 +1,18 @@
 {
-  "devDependencies": {
-    "dead-server": "^1.0.9"
-  }
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "dead-server --host=localhost --port=5101",
+    "dev2": "dead-server --port=5101",
+    "dev3": "dead-server --host=localhost",
+    "dev4": "dead-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+},
+"keywords": [],
+"author": "sxlx333 (https://github.com/sxlx333)",
+"license": "",
+"devDependencies": {
+  "dead-server": "^1.0.9"
 }
+}
+
